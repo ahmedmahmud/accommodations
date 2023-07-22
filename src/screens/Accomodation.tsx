@@ -23,10 +23,10 @@ const Accommodation = () => {
     <div>
       <Header />
 
-      <div className="mx-auto w-fit space-y-6 my-6">
+      <div className="mx-auto w-fit space-y-6 p-6">
         <div className="card bg-base-100 shadow-xl">
           <div className="card-body mx-auto">
-            <h1 className="text-3xl font-bold">{data.name}</h1>
+            <h1 className="md:text-3xl text-xl font-bold">{data.name}</h1>
           </div>
         </div>
 
