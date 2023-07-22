@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Accommodation, getAccommodations } from "../api/accomodations";
 
 const useAccommodations = () => {
-  const [data, setData] = useState<Accommodation[] | null>(null);
+  const [data, setData] = useState<Accommodation[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
